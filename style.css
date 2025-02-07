@@ -74,7 +74,7 @@ body {
     padding: 30px;
     margin: 10px 0 0 0; /* Adjusted margin to account for the header height */
     margin-bottom: 10px;
-}
+
 
 
 input {
@@ -192,11 +192,9 @@ background-color: #0056b3;
   font-family: "Noto Sans", serif;
   font-optical-sizing: auto;
   font-weight: 100;
-  font-style: normal;
-  font-variation-settings;
+font-style: normal;
   margin: 100px 0px 0px 0px;
   padding: 0px;
  
 }
-
-
+}
