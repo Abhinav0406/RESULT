@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="result.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.14/jspdf.plugin.autotable.min.js"></script></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+    <div class="header-container">
+        <a href="https://www.vishwavishwani.ac.in" target="_blank">
+            <img src="logo1.png" alt="Logo" class="logo">
+        </a>
+        
+        
+         <div class="header">VISHWA VISHWANI INSTITUTE OF SYSTEM AND MANAGEMENT</div>
+        <div class="nav-links">
+            <a href="https://www.vishwavishwani.ac.in/login.php">Home</a>
+            <a href="https://www.vishwavishwani.ac.in">Contact Us</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heading">
+            <h1>WELCOME TO VVISM RESULTS</h1>
+        </div>
+        
+        <input type="text" id="hallTicket" placeholder="ENTER HALL TICKET NO.">
+        <input type="text" id="dob" placeholder="DD/MM/YYYY">
+        <button class="submit-btn"><b>VIEWRESULT</b></button>
+    </div>
+   
+    <section class="results-section" id="results">
+        <!-- Results will be displayed here -->
+    </section>
+    <div class="action-buttons">
+        <button onclick="printResults()">Print Results</button>
+    </div>
+    <section class="prev-results" id="prev-results">
+        <!-- Previous semester results will be displayed here -->
+    
+  
+</body>
+</html>
